@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Skills from '../components/Skills'
+import About from '../components/About'
 import Main from '../components/Main'
 import Navbar from '../components/Navbar'
 
@@ -13,6 +15,8 @@ export default function Home() {
       </Head>
       <Navbar/>
       <Main/>
+      <About/>
+      <Skills/>
     </div>
   )
 }
